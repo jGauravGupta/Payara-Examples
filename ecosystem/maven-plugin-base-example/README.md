@@ -1,6 +1,6 @@
 This is a sample web application to example the use of ``payara-micro-maven-plugin``.
 
-``payara-micro-maven-plugin`` provides 2 goals, ``bundle`` and ``start``. After defining our plugin, we'll first bundle payara-micro within our webapp
+``payara-micro-maven-plugin`` provides 2 goals, ``bundle``, ``start`` and ``stop``. After defining our plugin, we'll first bundle payara-micro within our webapp
 and start it in ``uberJar`` mode, meaning that using the created bundled jar in ``target``folder.  
 
 The plugin configuration is as follows:
